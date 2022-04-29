@@ -8,7 +8,7 @@ class Square extends React.Component{
   render() {
     return(
       <button className='square'>
-        {/*todo*/}
+        {this.props.value}
       </button>
     );
   }
